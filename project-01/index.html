@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer type="module"></script>
+</head>
+<body>
+    <section class="form__container">
+        <div id="submit-form">
+            <h1>Random password generator</h1>
+            <input type="text" disabled id="displayer">
+            <button type="submit" id="submit-button">submit</button>
+            <button id="copy">copy</button>
+        </div>
+        <div class="options__container">
+            <div class="option">
+                <label for="length">length</label>
+                <input type="number" id="length" min="1" max="100" value="10">
+            </div>
+            <div class="option">
+                <label for="uppercase">uppercase</label>
+                <input type="checkbox" id="uppercase">
+            </div>
+            <div class="option">
+                <label for="lowercase">lowercase</label>
+                <input type="checkbox" id="lowercase">
+            </div>
+            <div class="option">
+                <label for="numbers">numbers</label>
+                <input type="checkbox" id="numbers">
+            </div>
+            <div class="option">
+                <label for="symbols">symbols</label>
+                <input type="checkbox" id="symbols">
+            </div>
+        </div>
+    </section>
+</body>
+</html>
